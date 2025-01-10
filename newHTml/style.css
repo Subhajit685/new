@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    height: 100vh;
+}
+
+.header{
+    background: rgb(226, 78, 78);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav{
+    display: flex;
+    gap: 4rem;
+}
+
+li{
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+}
+
+.footer{
+    background-color: blueviolet;
+    height: 10vh;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside{
+    width: 20vw;
+    border: 2px solid black;
+}
+
+.form{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("pexels-padrinan-255379.jpg");
+    object-fit: cover;
+    object-position: center;
+}
+
+.input{
+    display: flex;
+    gap: 2rem;
+    width: 20rem;
+}
+
+.lable{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.mform{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tinput{
+    width: 90rem;
+}
+
+.submit{
+    padding: 8px;
+    background-color: rgb(62, 62, 215);
+    color: white;
+}
+
+@media (max-width: 640px) {
+    .aside{
+        display: none;
+    }
+
+    .form{
+        width: 100vw;
+    }
+
+  }
